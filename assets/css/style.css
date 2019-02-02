@@ -199,4 +199,77 @@ footer{
     font-size: 10px; 
     }
 
+/* Smaller Browser */
+ @media screen and (max-width: 980px) {
+    h1 {
+        margin-left: 30px; 
+    }
 
+    .navOnRight {
+        margin: 0; 
+    }
+
+    .maincontent {
+        margin: 30px;
+        width: 650px; 
+    }
+    #hangmanPic, #rpgGame {
+    margin: 25px 15px 0px 15px;
+    } 
+
+    #triviaGame {
+        margin: 0px 15px; 
+    }
+      }
+
+ /*Tablets*/
+    @media screen and (max-width: 768px) {
+    h1 {
+        margin-left: 30px; 
+        }
+    
+    .navOnRight {
+        margin: 0; 
+        }
+    
+    .maincontent {
+        margin: 30px;
+        width: 650px; 
+        }
+    
+    #hangmanPic, #rpgGame {
+        margin: 25px 15px 0px 15px;
+        } 
+        
+    #triviaGame {
+            margin: 0px 15px; 
+        }
+}   
+
+/* Cell Phones */
+    @media screen and (max-width: 640px) {
+    header {
+        position: static;
+        }       
+        
+    h1 {
+        margin: 0px; 
+        width: 100%; 
+    }
+    
+    .nav { 
+       margin: 0px 65px;
+       float: left; 
+       padding: 10px 0; 
+    }
+   
+    .maincontent {
+        margin: 15px auto;
+        width: 300px; 
+        }
+
+    #hangmanPic, #rpgGame, #triviaGame, #rockPaperScissors, #rutgersInfoWidget  {
+        margin: 5px 15px 0px 15px;
+        } 
+                
+    }
